@@ -21,4 +21,4 @@ const postData = async ( url = '', data = {})=>{
 }
 
 // TODO-Call Function
-app.post('/addAnimal', postData)
+postData('/addAnimal', {animal: 'dragon'})
